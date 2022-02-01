@@ -1,0 +1,24 @@
+.transactionHistory {
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.transactionHistory thead {
+    background-color: rgb(171, 171, 244);
+    height: 30px;
+}
+
+.transitionRow tr {
+    height: 30px;
+    background-color: rgb(213, 213, 213);
+}
+
+/* .transactionHistory tbody :nth-child(2n) {
+    background-color: rgb(171, 171, 244); */
+/* } */
+
+/* .transitionRow tr :nth-child(2n) {
+    background-color: rgb(171, 171, 244);
+} */
