@@ -1,5 +1,19 @@
-// import logo from './logo.svg';
 // import './App.css';
+import Profile from './components/Profile';
+import user from './data/user.json';
+
+
+
+function App() {
+  
+  return (
+    <>
+      <Profile user={user} />
+      
+      </>
+  );
+}
+
 
 // function App() {
 //   return (
@@ -22,4 +36,4 @@
 //   );
 // }
 
-// export default App;
+export default App;
