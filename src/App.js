@@ -5,7 +5,11 @@ import Statistics from './components/Statistics';
 import data from "./data/data.json";
 import FriendList from "./components/FriendList";
 import friends from "./data/friends.json";
+import TransactionHistory from './components/TransactionHistory';
+import items from "./data/transactions.json";
 ;
+
+
 
 
 
@@ -20,6 +24,7 @@ function App() {
         stats={data}
       />
       <FriendList friends={friends} />
+      <TransactionHistory items={items}/>
     </>
   );
 }
