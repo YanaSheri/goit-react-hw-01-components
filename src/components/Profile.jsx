@@ -1,5 +1,5 @@
 const Profile = ({ user}) => {
-    console.log(user);
+    // console.log(user);
     const { avatar, location, stats: {followers, likes, views}, tag, username } = user;
     return <div className="profile">
         <div className="description">
