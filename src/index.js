@@ -9,6 +9,25 @@ console.log(element);
 
 
 ReactDOM.render(element, document.querySelector('#root'));
+
+
+
+const myelement = <h1>First JSX element!</h1>;
+ReactDOM.render(
+  myelement,
+  document.getElementById("root")
+);
+
+// const myelement = React.createElement(
+//   "h1",
+//   {},
+//   "no JSX!"
+// );
+// ReactDOM.render(
+//   myelement,
+//   document.getElementById("root")
+// );
+
 // ReactDOM.render(
 //   <React.StrictMode>
 //     <App />
